@@ -1,0 +1,99 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.container {
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+}
+.header {
+    height: 70px;
+    background-color: crimson;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    margin-left: 60px;
+    margin-top: 15px;
+    padding-right: 60px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+/*
+.edit-donate-list {
+    height: 50px;
+    border: 1px solid white;
+    margin-top: ;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}*/
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 15px;
+    padding-left: 20px;
+    color: white;
+}
+.form-container {
+    margin-top: 3%;
+}
+.form {
+    height: 430px;
+    width: 36%;
+    margin:auto;
+    background-color: crimson;
+}
+button {
+    height: 50px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    background-color: white;
+    color: crimson;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    border: none;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+input {
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 4%;
+    width: 90%;
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+h1 {
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*TABLE SECTION */
+
+
